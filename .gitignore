@@ -1,0 +1,46 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Cowrie runtime/log data
+cowrie-data/
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+# Old backend versions and test files
+backend/app_backup*.py
+backend/app_before_*.py
+backend/app_email_persistent_*.py
+backend/app_live_features_*.py
+backend/app (2).py
+backend/test_neon*.py
+backend/auth_routes.py
+
+# Old frontend versions
+frontend/src/*_backup*
+frontend/src/*_before_*
+
+# Local database and model
+backend/data/
+backend/models/
+
+# Temporary text files
+New Text Document*.txt
+
+# Backup frontend
+frontend_backup/

@@ -1,0 +1,80 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+cowrie_block_key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+.python-version
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Databases and local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Model and generated files
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.pt
+
+# Editor and operating system
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backups
+frontend_backup/
+*_backup/
+# Old backend versions and test files
+backend/app_backup*.py
+backend/app_before_*.py
+backend/app_email_persistent_*.py
+backend/app_live_features_*.py
+backend/app (2).py
+backend/test_neon*.py
+backend/auth_routes.py
+
+# Old frontend versions
+frontend/src/*_backup*
+frontend/src/*_before_*
+
+# Local database
+backend/data/
+
+# Temporary text files
+New Text Document*.txt
+
+# Backup frontend
+frontend_backup/
